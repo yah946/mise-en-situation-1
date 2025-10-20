@@ -1,0 +1,98 @@
+*{
+    font-family: "Work Sans", "Noto Sans", sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+}
+.header__logo{
+    width: 16px;
+    height: 16px;
+}
+.header__title{
+    font-size: 18px;
+}
+.header__navBar{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header__button{
+    border: 1px solid #f1f2f4;
+    padding: 12px 40px;
+    background-color: #b2c5e5 ;
+    border-radius: 12px;
+}
+.header{
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: #121416;
+}
+/* Main */
+.main{
+    margin: 40px 12%;
+}
+.container{
+    color: #FFFFFF;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAYKFRxdYXCyZt_R25M0l0iIeR5scEOFHZlpc8u9OgTxrFXOc3-Pao9oAmpyvRDmWm12RBnkIPmO5cO2VwlIcoxfm77ZkIxQqOTxF66kOCh4g8oq1D4Vp26xNa0Xqliv8jsOsfBUCDtH8doz2Rq-AUG4kMMh88mxlR9E6xCavVU3rcf0jU5VF3YYVThsHTLtcuLwnZXh4_QIeX-9hPy6lTJTcz0xLX3-WITTdYMESn1XfVbay2yEy4r1p-CP_5UdkMlG2cjR57_ueY);
+    min-height: 480px;
+    width: 928px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+}
+.header__button--width{
+    width: fit-content;
+    margin-left: 40%;
+}
+/* About Me */
+.aboutme{
+    width: 928px;
+    margin: 40px 12%;
+}
+/* Services */
+.services{
+    width: 928px;
+    margin: 40px 12%;
+}
+.services__card{
+    display: flex;
+    flex-direction: column;
+}
+.services__card--style{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.services__card--ratio{
+    width:320px ;
+    height:171px ;
+    border-radius:16px ;
+
+}
+/* Footer */
+.footer{
+    margin-top: 50px;
+}
+.footer__pages{
+    color: #6a7281;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+.footer__link--gray{
+    color: #6a7281;
+}
+.cRight{
+    color: #6a7281;
+    margin-top: 40px;
+    text-align: center;
+}

@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mise en situation, CSS, HTML, brief">
+    <meta name="description" content="Intégration d'une page web conforme au brief fourni, en respectant les contraintes techniques, méthodologiques et éthiques.">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="./asset/style.css">
     <title>Mise en Situation</title>
 </head>
 <body>
-    
+    <!-- Navigation -->
+    <header class="header">
+        <h1 class="header__title"><svg class="header__logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                  fill="currentColor"
+                ></path>
+        </svg> My Web Portfolio</h1>
+        <div class="header__navBar">
+            <a class="header__link" href="#">Home</a>
+            <a class="header__link" href="#">About</a>
+            <a class="header__link" href="#">Services</a>
+            <a class="header__link" href="#">Contact</a>
+        </div>
+        <div class="header__button">
+            <a class="header__button--color" href="#">View Portfolio</a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+     <main class="main">
+        <div class="container">
+            <h2 class="container__text">Welcome to My Web Portfolio</h2>
+            <p class="container__paragraph">I'm a passionate web developer specializing in HTML and CSS. Explore my projects below to see my skills in action.</p>
+            <div class="header__button header__button--width">
+                <a href="#">View Portfolio</a>
+            </div>
+        </div>
+     </main>
+     <!-- About Me -->
+      <section class="aboutme">
+        <h2 class="aboutme__title">About Me</h2>
+        <p>I am a dedicated web developer with a strong foundation in HTML and CSS. My goal is to create visually appealing and user-friendly websites that meet the needs of my clients. I am constantly learning and improving my skills to stay up-to-date with the latest web development trends.</p>
+      </section>
+      <!-- Services -->
+       <section class="services">
+        <h2 class="services__title">Services</h2>
+        <div class="services__card">
+            <div class="services__card--style">
+                <img class="services__card--ratio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2rRDYpd9pcBc3A5-R_ep0D73iz10zcu-obciimAjepeaRwNo_J6Te4Kte83amzThitrsYe9vuVU9Y7KQ8w_fR2-j8YXZwMqw8qDd5azDTLR28dibB3bsIV6wGy1h5Z2S7n-gn4RcqALL2bKFfRsmObhGaWaEK_VZXYni3md3RPQ5yOIwH2vdaLgP8Msjn8OAC6MwR0dVXtJnLUVxp17h5M_bquJlp7cmTi4ufPsIre5Z4gV9Ueb-GN_X__CHRJavEPdTkfa0Pw6I" alt="image">
+                <div class="services__card-info">
+                    <h4>Web Design</h4>
+                    <p>Creating visually appealing and responsive website designs tailored to your brand.</p>
+                </div>
+            </div>
+            <div class="services__card--style">
+                <img class="services__card--ratio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL0eIqIVumy39fuCBqLlKkigjJQ5ulhtp8hmq3bk-TmxEmefEfgS5s1bd72Vht98QAbNZu6OmTd3WfKudFYzCAzqdr_5fyynKVqE7-qY0k9-6x0GSOzCrve81iPbmNMv4-eomt-KVBozkGpTD5XuLoRAQ4PyI96P56S7SdbXzv2odeyjy-vjKoYUPUk3SpdJG2LQRF57QW_E7TuHk1GEa-vcg94DedQqXZqUMNnKSXBMOXhFrjdT1dineMjyzoo6GUlvmEynrisU8" alt="image">
+                <div class="services__card-info">
+                    <h4>Front-End Development</h4>
+                    <p>Implementing designs using HTML, CSS, and JavaScript to create interactive and dynamic websites.</p>
+                </div>
+            </div>
+            <div class="services__card--style">
+                <img class="services__card--ratio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu-v4RXMKetvJEVtqdrrQm2GozdlpT0UQ38ZPRenhlmQ8XS-lev6rZOG8Cav9d7Cw389fXzoHiDRgg1wK1Zu2UGtQbNrcM73RHm5YpwBfN7Lt8b3SRdwBdxPaZc28SWlqB-XD6jKAhVAH-2ywphU08_txEZoeRWCd0Szcin-UYZSxfKplyMHqjG077eZIWETVKzFVMjUTZNOZhc6oIhAEtVwfR-kf9tNq2wyx3BQE87lzjuZ4yqlpTkjhjZxcmAyOBpMedWAKSs90" alt="image">
+                <div class="services__card-info">
+                    <h4>Website Maintenance</h4>
+                    <p>Providing ongoing support and updates to ensure your website remains functional and secure.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__pages">
+                <a href="#" class="footer__link--gray">Home</a>
+                <a href="#" class="footer__link--gray">About</a>
+                <a href="#" class="footer__link--gray">Services</a>
+                <a href="#" class="footer__link--gray">Contact</a>
+            </div>
+            <p class="cRight">&copy; 2025 My Web Portfolio. All rights reserved.</p>
+        </footer>
 </body>
 </html>
