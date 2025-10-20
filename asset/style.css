@@ -48,6 +48,7 @@ a{
     background-position: center;
     text-align: center;
     align-content: center;
+    border-radius: 12px;
 }
 .header__button--width{
     width: fit-content;
